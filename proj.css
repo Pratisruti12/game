@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+
+
+.choice:hover{
+opacity: 0.5;
+cursor: pointer;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+   
+}
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+    gap: 10rem;
+}
+#user-score,
+#comp-score{
+    font-size: 5rem;
+}
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    background-color:blue ;
+    color: white;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
